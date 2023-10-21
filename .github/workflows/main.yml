@@ -1,0 +1,29 @@
+name: Publish Records
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  publish:
+    if: github.repository == 'proj-at/subdomains'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.8.1
+        with:
+          node-version: 18.x
+      - name: Install
+        run: |
+          npm install -g yarn
+          yarn
+      - name: Publish
+        run: |
+          node functions/scan
+        env:
+          CLOUDFLARE_ZONE_PROJ_SBS: ${{ secrets.CLOUDFLARE_ZONE_PROJ_SBS }}
+          CLOUDFLARE_APIKEY_PROJ_SBS: ${{ secrets.CLOUDFLARE_APIKEY_PROJ_SBS }}
+          CLOUDFLARE_GLOBAL_KEY: ${{ secrets.CLOUDFLARE_GLOBAL_KEY }}
+          CLOUDFLARE_EMAIL_PROJ_SBS: ${{ secrets.CLOUDFLARE_EMAIL_PROJ_SBS }}
