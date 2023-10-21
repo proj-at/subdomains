@@ -1,0 +1,15 @@
+{
+  "name": "subdomains",
+  "version": "1.0.0",
+  "description": "Get ur own proj.sbs/proj.at subdomains, free for open-source developers",
+  "main": "index.js",
+  "repository": "https://github.com/proj-at/subdomains",
+  "author": "Jun Y. <ohhhcky@outlook.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module"
+}
