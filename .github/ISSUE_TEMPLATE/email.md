@@ -1,7 +1,7 @@
 ---
 name: email
 title: Apply Email
-about: Apply a `@proj.sbs` email which can be forwarded to your Gmail / Outlook account.
+about: Apply a @proj.sbs email which can be forwarded to your Gmail / Outlook account.
 labels: email
 ---
 
