@@ -1,6 +1,8 @@
 # Proj.at & Proj.sbs
 
-> Get ur own proj.sbs / proj.at subdomains here, free for open-source developers.
+> 🌎 Get your own proj.sbs / proj.at subdomains, free for open-source developers.
+>
+> `proj.at` currently doesn't accept subdomain requests. Please use `proj.sbs`.
 
 ## Register
 
