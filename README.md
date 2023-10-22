@@ -15,4 +15,8 @@ Once the branch has merged, you can access your subdomain, enjoy ur `proj.sbs` d
 
 ## Proj.sbs
 
-Proj.sbs means `project, side by side`. It's a free subdomain service for open-source developers. You can use it for your open-source projects or your own website. We use Cloudflare DNS manage the domain records.
+Proj.sbs means `project, side by side`. It's a free subdomain service for open-source developers. You can use it for your open-source projects or your own website.
+
+## Thanks
+
+We use [Cloudflare](https://www.cloudflare.com/) DNS to manage our domain records, and its CDN to provide global service.
