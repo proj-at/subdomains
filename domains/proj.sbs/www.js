@@ -6,7 +6,7 @@ export default {
         // your github email
         email: "github@proj.at",
     },
-    record: [
+    records: [
         {
             // type, accept CNAME, A, AAAA
             type: "CNAME",
