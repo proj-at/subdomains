@@ -13,6 +13,43 @@
 5. Commit the changes and create a pull request to `proj-at/subdomains:main`.
 6. Wait for the review and merge.
 
+## Formats
+
+```js
+// change the file to [sub].js
+// e.g. `foo.js`
+export default {
+    owner: {
+        // your github username
+        user: "proj-at",
+        // your github email
+        email: "github@proj.at",
+    },
+    records: [
+        // can include multiple records, if some of them conflict, may be overwritten
+        {
+            // type of DNS record
+            type: "CNAME",
+            // content of the record
+            record: "cname.vercel-dns.com.",
+            // using Cloudflare CDN
+            proxied: true,
+            // TTL, (s), must be between 60 and 86400
+            ttl: 60,
+        },
+        {
+            // type of DNS record
+            type: "TXT",
+            // content of the record
+            record: "x...",
+            // TTL, (s), must be between 60 and 86400
+            ttl: 60,
+        },
+        // ...
+    ]
+}
+```
+
 Once the branch has merged, you can access your subdomain, enjoy ur `proj.sbs` domain.
 
 ## Proj.sbs
