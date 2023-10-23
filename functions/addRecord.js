@@ -3,9 +3,6 @@ import 'dotenv/config'
 const addRecord = async (domain, name, recordFile) => {
     const { type, record, proxied, ttl } = recordFile
     if (domain == "proj.sbs") {
-        if (type != "CNAME" && type != "A" && type != "AAAA") {
-            return false
-        }
         const clientAPI = "https://api.cloudflare.com/client/v4"
         const zones = "/zones/" + process.env.CLOUDFLARE_ZONE_PROJ_SBS + "/dns_records"
         const apiKey = process.env.CLOUDFLARE_APIKEY_PROJ_SBS
