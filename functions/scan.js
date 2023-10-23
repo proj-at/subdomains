@@ -12,11 +12,13 @@ try {
         let filePath = '../' + path.join('./domains/proj.sbs', file).replace(/\\/g, "/");
         let i = await import(filePath);
         let name = file.replace('.js', '');
-        let result = await addRecord('proj.sbs', name, i.default.record);
-        if (result) {
-            console.log(`Added ${name}.proj.sbs to Cloudflare DNS`)
-        } else {
-            console.warn(`Failed to add ${name}.proj.sbs to Cloudflare DNS`)
+        for (let item of i.default.records) {
+            let result = await addRecord('proj.sbs', name, item);
+            if (result) {
+                console.log(`Added ${name}.proj.sbs to Cloudflare DNS, ${item.type}`)
+            } else {
+                console.warn(`Failed to add ${name}.proj.sbs to Cloudflare DNS, ${item.type}`)
+            }
         }
     }
 
