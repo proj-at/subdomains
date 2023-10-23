@@ -6,7 +6,7 @@ export default {
         // your github email
         email: "github@proj.at",
     },
-    record: [
+    records: [
         // can include multiple records, if some of them conflict, may be overwritten
         {
             // type of DNS record
