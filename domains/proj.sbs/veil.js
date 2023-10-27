@@ -8,8 +8,8 @@ export default {
     },
     records: [
         {
-            type: "CNAME",
-            record: "thecipherproject.github.io",
+            type: "A",
+            record: "68.233.125.2",
             proxied: true,
             ttl: 60,
         }
