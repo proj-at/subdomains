@@ -1,6 +1,6 @@
 export default {
     owner: {
-        user: "4d62",
+        user: "inbredmaniac",
         email: "domry@duck.com",
     },
     records: [
