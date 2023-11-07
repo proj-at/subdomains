@@ -1,12 +1,12 @@
 export default {
     owner: {
-        user: "thecipherproject-team",
-        email: "tcp@proj.sbs",
+        user: "4d62",
+        email: "domry@duck.com",
     },
     records: [
         {
             type: "CNAME",
-            record: "thecipherproject.github.io",
+            record: "4d62.github.io",
             proxied: true,
             ttl: 60,
         }
