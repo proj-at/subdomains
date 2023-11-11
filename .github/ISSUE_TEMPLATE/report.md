@@ -1,5 +1,5 @@
 ---
-name: report
+name: Report
 title: Report
 about: Report a subdomain of proj.sbs or proj.at.
 labels: report
