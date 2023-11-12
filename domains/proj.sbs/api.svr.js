@@ -5,8 +5,8 @@ export default {
     },
     records: [
         {
-            type: "CNAME",
-            record: "reserved.svr-int.4d62.is-a.dev",
+            type: "A",
+            record: "204.216.111.86",
             proxied: true,
             ttl: 60,
         }
