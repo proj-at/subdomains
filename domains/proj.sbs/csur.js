@@ -9,9 +9,9 @@ export default {
         {
             // type, accept CNAME, A, AAAA
             type: "CNAME",
-            record: "cname.vercel-dns.com.",
+            record: "csur-site.netlify.app.",
             // using Cloudflare CDN
-            proxied: false,
+            proxied: true,
             // TTL, (s), must be between 60 and 86400,
             ttl: 60,
         }
