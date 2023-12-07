@@ -8,7 +8,7 @@ export default {
     records: [
         {
             type: "CNAME",
-            record: "https://cybervau1t.github.io/",
+            record: "cybervau1t.github.io",
             proxied: false,
             ttl: 60,
         }
