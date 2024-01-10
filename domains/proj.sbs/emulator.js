@@ -2,7 +2,7 @@
 export default {
     owner: {
         // your github username
-        user: "GabeTheCat123",
+        user: "NotAnEmulator",
         // your github email
         email: "gabethecat2011@gmail.com",
     },
