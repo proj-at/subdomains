@@ -19,14 +19,6 @@ export default {
             // TTL, (s), must be between 60 and 86400
             ttl: 60,
         },
-        {
-            // type of DNS record
-            type: "TXT",
-            // content of the record
-            record: "x...",
-            // TTL, (s), must be between 60 and 86400
-            ttl: 60,
-        },
         // ...
     ]
 }
