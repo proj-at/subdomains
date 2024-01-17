@@ -1,8 +1,6 @@
-# Proj.at & Proj.sbs
+# Proj.sbs (by Proj.at)
 
-> 🌎 Get your own proj.sbs / proj.at subdomains, free for open-source developers.
->
-> `proj.at` currently doesn't accept subdomain requests. Please use `proj.sbs`.
+> 🌎 Get your own proj.sbs subdomains, free for open-source developers. (by Proj.at)
 
 ## Register
 
@@ -52,9 +50,11 @@ export default {
 
 Once the branch has merged, you can access your subdomain, enjoy ur `proj.sbs` domain.
 
-## Proj.sbs
+## About Proj.sbs
 
 Proj.sbs means `project, side by side`. It's a free subdomain service for open-source developers. You can use it for your open-source projects or your own website.
+
+
 
 ## Thanks
 
