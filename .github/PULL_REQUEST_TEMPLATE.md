@@ -2,8 +2,6 @@
 
 Proj.at reserves the right to review your domain name for approval.
 
-Notes: `proj.at` currently doesn't accept subdomain requests. Please use `proj.sbs`.
-
 - [ ] I provided a record file based on the template.
 - [ ] I have put the record file in the `domains/proj.sbs` folder.
 - [ ] I promised that I will not use the domain for any illegal activities.
