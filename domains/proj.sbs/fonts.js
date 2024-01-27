@@ -1,14 +1,14 @@
 export default {
     owner: {
         user: "4d62",
-        email: "domry@duck.com",
+        email: "dns-admin@4d62.me",
     },
     records: [
         {
-            type: "A",
-            record: "204.216.111.86",
+            type: "CNAME",
+            record: "4d62.github.io",
             proxied: true,
             ttl: 60,
-        }
+        },
     ]
 }
