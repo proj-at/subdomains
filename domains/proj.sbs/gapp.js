@@ -6,7 +6,7 @@ export default {
     records: [
         {
             type: "CNAME",
-            record: "gappjust.github.io.",
+            record: "gapp.pages.dev.",
             proxied: true,
             ttl: 60,
         },
