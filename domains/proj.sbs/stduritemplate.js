@@ -14,7 +14,7 @@ export default {
             // Used to verify a domain in the Google Search console to publish the Dart package of:
             // https://github.com/std-uritemplate/std-uritemplate
             type: "TXT",
-            record: "google-site-verification=ITsxQ9eqNNXR6B1vHPgf323lFXFU2W-wtJW_eqavP1w",
+            record: "google-site-verification=XwBh__ofRV59ysU9N7fgpsRxeuYnXos2WpUuPjanu_g",
             ttl: 60,
         },
     ]
