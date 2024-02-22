@@ -2,6 +2,10 @@
 
 > 🌎 Get your own proj.sbs subdomains, free for open-source developers. (by Proj.at)
 
+> [!NOTE]  
+> Please note that all the content on Proj.sbs is created by users. **Proj.at is not responsible for its content and opinions.** If the content on it makes you feel uncomfortable, please report it to us. You can send email to *report@proj.sbs* or [click here](https://github.com/proj-at/subdomains/issues/new?assignees=&labels=report&projects=&template=report.md&title=Report)
+
+
 ## Register
 
 1. Fork this repository to your own account.
