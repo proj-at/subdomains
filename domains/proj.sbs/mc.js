@@ -6,25 +6,25 @@ export default {
 	records: [
 		{
 			type: "NS",
-			record: "ns1.afraid.org",
+			record: "ns1.hostry.com",
 			proxied: false,
 			ttl: 60
 		},
     {
 			type: "NS",
-			record: "ns2.afraid.org",
+			record: "ns2.hostry.com",
 			proxied: false,
 			ttl: 60
 		},
     {
 			type: "NS",
-			record: "ns3.afraid.org",
+			record: "ns3.hostry.com",
 			proxied: false,
 			ttl: 60
 		},
     {
 			type: "NS",
-			record: "ns4.afraid.org",
+			record: "ns4.hostry.com",
 			proxied: false,
 			ttl: 60
 		}
