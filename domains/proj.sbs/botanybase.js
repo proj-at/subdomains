@@ -5,7 +5,7 @@ export default {
         // your github username
         user: "melonmasteristaken",
         // your github email
-        email: "github@proj.at",
+        email: "1d10t1cstud10s.contact@gmail.com",
     },
     records: [
         // can include multiple records, if some of them conflict, may be overwritten
